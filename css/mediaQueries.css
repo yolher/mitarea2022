@@ -1,0 +1,109 @@
+@media screen and (max-width: 1200px){
+	nav ul li {
+		padding-left: 2rem;
+	}
+}
+@media screen and (max-width: 992px){
+	.contbanner .slidepri{
+		max-width: 600px;
+		text-align: center;
+	}
+	.contbanner .slick-dots{
+		text-align: center !important;
+	}
+	#formmitarea{
+		max-width: 600px;
+	}
+	.contbanner .paises{
+		text-align: center;
+	}
+	.contmucha{
+		background-image: none;
+	}
+	.contbanner .slidepri{
+		margin-top: 10px;
+	}
+	.navbar-light .navbar-brand{
+		margin: auto;
+	}
+	.iconnav i{
+		color: #fff;
+		font-size: 25px;
+	}
+	.navbar-light .navbar-toggler{
+		border: 0px;
+	}
+	nav ul li{
+		padding-left: 0px;
+	}
+	nav ul li a#trabajosdegrado-item{
+		background-color: #d72871;
+		width: 172px;
+		margin: 0px;
+	}
+	#frecuentes{
+		margin-top: 40px;
+	}
+	footer .contlogos img{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 767px){
+	.contamos .conticonmitarea h3{
+		font-size: 18px;
+	}
+	.contamos .conticonmitarea span{
+		font-size: 13px;
+	}
+	.iconosmitarea div div{
+		margin-bottom: 20px;
+	}
+	.videohome iframe{
+		height: 300px;
+	}
+	.tesis-mitarea h1{
+		font-size: 30px;
+		margin-bottom: 12px;
+	}
+	footer .queesmitarea{
+		text-align: center;
+		padding: 0px 20px;
+	}
+}
+@media screen and (max-width: 576px){
+	nav .logomitarea img{
+		width: 180px;
+	}
+	.contbanner .banner-mitarea h4{
+		font-size: 25px;
+	}
+	.contbanner .banner-mitarea h2{
+		font-size: 36px;
+		line-height: 30px;
+	}
+	#comentariosPage{
+		padding: 0px;
+	}
+	.opinionesmi h4{
+		font-size: 14px;
+		padding: 0px 23px 0px 10px;
+		
+	}
+	.slick-next{
+		right: 6px !important;
+	}
+	.slick-prev{
+		left: 6px !important;
+	}
+	#frecuentes .accordion-item:first-of-type .accordion-button{
+		font-size: 16px;
+	}
+	.opremitarea{
+		margin-bottom: 50px;
+	}
+	footer .contlogos img{
+		max-width: 120px;
+		margin: auto;
+		margin-top: 20px;
+	}
+}

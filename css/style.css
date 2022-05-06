@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;600;700;900&display=swap');
+body{
+    background-color: #ebebeb !important;
+}
+a:hover{
+    color: #0189fc !important;
+}
+.pagecolor{
+    width: 100%;
+    max-width: 1400px;
+    background-color: #fff;
+    margin: auto;
+    border-radius:30px ;
+}
+header{
+    max-width: 1400px;
+    margin: auto;
+    border-radius: 30px 30px 0px 0px;
+    margin-top: 10px;
+    background-color: #1ac2ff ;
+}
+nav{
+    padding-top: 20px !important;
+}
+nav .logomitarea img{
+    width: 220px;   
+}
+nav ul{
+    
+}
+nav ul li{
+    padding-left: 5rem;
+}
+nav ul li a{
+    color: #fff;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+nav ul li a#trabajosdegrado-item{
+    background-color: #d72871;
+}
+nav ul li a#trabajosdegrado-item:hover{
+    color: #fff !important;
+}
+/* =========== banner ==== */
+.contbanner{
+    width: 100%;
+    background-color: #1ac2ff;
+    background-image: url(../img/banner-mitarea-pagina.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    max-width: 1400px;
+    margin: auto;
+    border-radius: 0px 0px 30px 30px;
+    z-index: 999;
+    padding-top: 20px;
+}
+.contbanner .banner-mitarea{
+    color: #fff;
+}
+.contbanner .banner-mitarea h4{
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 26px;
+}
+.contbanner .banner-mitarea img{
+    display: inline-block;
+}
+.contbanner .banner-mitarea h2{
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 43px;
+    margin-bottom: 10px;
+}
+.contbanner .slidepri{
+    margin: auto;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 70px;
+}
+.contbanner .slick-dots{
+    text-align: left !important;
+}
+.contbanner .slick-dots li.slick-active button:before{
+    color: #fff;
+}
+.contbanner .slick-dots li button:before{
+    color: #fff;
+    font-size: 10px;
+}
+.contbanner .pietitlebanner h3{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+}
+.contbanner .paises{
+    margin: auto;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 70px;
+} 
+.contbanner .paises h2{
+    color: #fff;
+    font-size: 20px;
+}
+.contbanner .paises img{
+    width: 100%;
+}
+.contmucha{
+    background-image: url(../img/mujer-mitarea.png);
+    z-index: 9999;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y:bottom ;
+    background-size: 400px;
+}
+/*========= todo el formulario ======== */
+.titleform{
+    margin: auto;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+.titleform h1{
+    color: #fff;
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;    
+}
+.titleform h6{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+.titleform h4{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+#formmitarea{
+    margin: auto;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 40px;
+    line-height: 0px;
+}
+#formmitarea .form-control{
+    background-color: #5fd4ff !important;
+    border: none;
+    margin-top: 7px;
+    color: #fff !important;
+}
+#formmitarea input::placeholder{
+    color: #fff !important;
+}
+#formmitarea label{
+    color: #fff;
+}
+#formmitarea select{
+    margin-top: 7px;
+    color: #fff;
+    background-color: #5fd4ff !important;
+    border: none;
+}
+#formmitarea textarea{
+    margin-top: 7px;
+    color: #fff;
+    background-color: #5fd4ff !important;
+    border: none;
+}
+#formmitarea textarea::placeholder{
+    color: #fff !important;
+    font-size: 12px;
+    opacity: 0.7;
+}
+#formmitarea .input-group-text{
+    margin-top: 7px;
+    color: #fff;
+    background-color: #5fd4ff !important;
+    border: none;
+}
+#formmitarea .enviartarea{
+    width: 100%;
+    margin-top: 7px;
+    color: #0189fc;
+    font-size: 20px;
+}
+#formmitarea span{
+    line-height: normal;
+    font-size: 12px;
+    color: #fff;
+}
+#formmitarea .spanaviso{
+    margin-top: 10px;
+}
+ /* -=== contamos con === */
+ .contamos{
+     width: 100%;
+     max-width: 1400px;
+     margin: auto;
+     margin-top: 85px;
+     margin-bottom: 100px;
+ }
+.contamos h1{
+    color: #5c5c5c;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: 700;
+}
+.contamos .iconosmitarea{
+    margin-top: 65px;
+    background-color: #1ac2ff;
+    padding: 30px 0px;
+    border-radius: 40px;
+}
+
+.contamos .iconosmitarea img{
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 160px;
+    background-color: #fff;
+    padding: 25px 25px 0px 25px;
+    border-radius: 30px 30px 0px 0px;
+    -webkit-box-shadow: 0px -6px 8px -2px rgba(0,0,0,0.04);
+-moz-box-shadow: 0px -6px 8px -2px rgba(0,0,0,0.04);
+box-shadow: 0px -6px 8px -2px rgba(0,0,0,0.04);
+
+}
+.contamos .conticonmitarea{
+    width: 95%;
+    max-width: 900px;
+    margin: auto;
+    margin-top: -72px;
+}
+.contamos .conticonmitarea h3{
+    background-color: #fff;
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 160px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #1ac2ff;
+    padding: 10px 0px 0px 0px;
+    font-weight: 700;
+}
+.contamos .conticonmitarea span{
+    background-color: #fff;
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 160px;
+    border-radius: 0px 0px 30px 30px;
+    text-align: center;
+    line-height: 14px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: #5c5c5c;
+    height: 40px;
+
+}
+/*===== opiniones opiniones home ====*/
+.opremitarea{
+    margin-bottom: 100px;
+}
+.opinionesmi{
+    background-color: #1ac2ff;
+    border-radius: 40px;
+    text-align: center;
+    color: #fff;
+    padding: 40px 0px;
+}
+.opinionesmi h1{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.opinionesmi li i{
+    font-size: 25px;
+    padding: 0px 5px;
+}
+.opinionesmi li strong{
+    display: block;
+    font-size: 20px;
+}
+.opinionesmi h4{
+    padding: 0px 80px 0px 70px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    margin-top: 20px;
+}
+/*======= preguntas frecuentes ==== */
+#frecuentes h1{
+    color: #5c5c5c;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: 700;
+}
+#frecuentes .card-body{
+    background-color: #f2f2f2;
+}
+#frecuentes strong{
+    color: #5c5c5c;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    line-height: 20px;
+}
+#frecuentes #accordionExample{
+    height: 400px;
+    overflow-y: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    padding: 0px 10px;
+}
+
+#frecuentes #accordionExample::-webkit-scrollbar {
+    width: 6px;
+}
+#frecuentes #accordionExample::-webkit-scrollbar-track {
+    
+    border-radius: 10px;
+}
+#frecuentes #accordionExample::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #1ac2ff;
+    
+}
+#frecuentes .accordion-item:first-of-type .accordion-button{
+    border-top-left-radius: calc(1.25rem - 1px);
+    border-top-right-radius: calc(1.25rem - 1px);
+    border-bottom-right-radius: calc(1.25rem - 1px);
+    border-bottom-left-radius: calc(1.25rem - 1px);
+    border-bottom-right-radius: calc(1.25rem - 1px);
+    border-bottom-left-radius: calc(1.25rem - 1px);
+    color: #5c5c5c;
+    font-size: 18px;
+    font-weight: 700;
+    background: #f2f2f2;
+}
+
+#frecuentes .accordion-item{
+    margin-bottom: 10px;
+    border-radius: 20px 20px;
+    background-color: #f2f2f2;
+}
+.cta{
+    text-align: center;
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 250px;
+    background-color: #1ac2ff;
+    border-radius: 15px;
+    padding: 10px 0px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+}
+.videohome iframe {
+    border-radius: 50px;
+    margin-top: 65px;
+}
+/*======= como funciona */
+.comofuncionahome{
+    margin-bottom: 50px;
+    margin-top: 65px;
+}
+.comofuncionahome h1{
+    color: #5c5c5c;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 65px;
+}
+.comofuncionahome .contpasos{
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    padding: 40px 20px 20px 20px;
+}
+.comofuncionahome .contpasos h3{
+    text-align: center;
+    font-weight: 700;
+    color: #5c5c5c;
+}
+.comofuncionahome .contpasos p{
+    font-weight: 400;
+    color: #5c5c5c;
+}
+.comofuncionahome .pasoshome{
+    background-color: #1ac2ff;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    border-radius: 40px;
+    color: #fff;
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: -30px;
+    position: relative;
+}
+/*====== tesis mitarea =======*/
+.tesis-mitarea{
+    display: flex;
+   align-items: center;
+   margin-top: 50px;
+}
+.tesis-mitarea-img{
+    width: 100%;
+}
+.tesis-mitarea .imgasesoriahome{
+    width: 100%;
+}
+.tesis-mitarea .row {
+    display: flex;
+    align-items: center;
+ }
+.tesis-mitarea col {
+    padding: 40px 0px !important;
+}
+.tesis-mitarea h1{
+    color: #5c5c5c;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 65px;
+    width: 100%;
+    max-width: 350px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+/*======= footer */
+footer{
+    background-color: #1ac2ff;
+    border-radius: 30px;
+    width: 100%;
+    margin: auto;
+    max-width: 1400px;
+    margin-bottom: 20px;
+    margin-top: 65px;
+    padding: 0px 0px 40px 0px;
+}
+footer .container{
+  
+}
+footer .queesmitarea{
+    color: #fff;
+    font-weight: 300;
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    padding: 40px 0px;
+}
+footer .queesmitarea h3{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+footer .iconblamitarea{
+    margin-bottom: 30px;
+    width: 80px;
+}
+footer .queesmitarea p{
+    width: 100%;
+    max-width: 500px;
+}
+footer .metodoshome{
+    padding: 40px 0px;
+}
+footer .metodoshome h1{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+footer .metodoshome .imgmetodos{
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 500px;
+
+}
+footer .contlogos{
+    background-color: #fff;
+    max-width: 1000px;
+    margin: auto;
+    border-radius: 40px;
+    padding: 10px 40px;
+    
+}
+footer .contlogos div{
+    display: flex;
+    align-items: center;
+}
+.regrearriba{
+    position: absolute;
+    right: 0px;
+}
